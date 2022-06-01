@@ -46,7 +46,7 @@ function draw() {
   boy.x = World.mouseX;
     
   if(touches.length > 0){
-    boy.x = touches[x]
+    boy.x = touches[0]
     touches = []
   }
   
